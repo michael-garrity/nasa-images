@@ -26,7 +26,7 @@ const Card = props => (
         </div>
       ) : null}
     </Segment>
-    {props.copyright ? 'Credit: ' : null} {props.copyright}
+    <Segment>{props.photo.copyright}</Segment>
     <Segment secondary>
       <p>{props.photo.explanation}</p>
     </Segment>
